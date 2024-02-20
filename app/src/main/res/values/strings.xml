@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="logoDescription">The Logo of Login Screen. The purpose of this logo is to let the user to login with their credentials</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:elevation="2dp"
+    app:cardCornerRadius="8dp"
+    android:radius="25dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Add your UI elements here -->
+        <TextView
+            android:layout_marginTop="3dp"
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Harsha"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:layout_below="@id/txt_name"
+            android:background="#8A8282"
+            android:layout_height="1dp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

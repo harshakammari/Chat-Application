@@ -1,0 +1,28 @@
+<!-- sent.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_background">
+
+        <TextView
+            android:id="@+id/sentTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is sent message"
+            android:textSize="18sp"
+            android:background="@drawable/message_box_background"
+            android:padding="8dp"
+            android:layout_marginRight="1dp"
+            android:textColor="@color/white"
+            android:textStyle="italic"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

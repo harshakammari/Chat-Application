@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (Light mode). -->
+    <style name="Base.Theme.ChatApp" parent="Theme.AppCompat.Light">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.ChatApp" parent="Base.Theme.ChatApp" />
+</resources>
